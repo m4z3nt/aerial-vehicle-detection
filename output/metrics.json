@@ -1,0 +1,30 @@
+{
+  "model": "runs/aerial_vehicle_v1/weights/best.pt",
+  "eval_frames": 62,
+  "conf_threshold": 0.1,
+  "iou_threshold": 0.3,
+  "assumptions": {
+    "reference_car_length_m": 4.5,
+    "camera_fov_deg": 70.0
+  },
+  "metrics": {
+    "0-200m": {
+      "detection_rate": 0.0,
+      "precision": 0,
+      "false_alarms_per_min": 0.0,
+      "time_to_first_detection": Infinity,
+      "tp": 0,
+      "fp": 0,
+      "fn": 31
+    },
+    "200-400m": {
+      "detection_rate": 0,
+      "precision": 0,
+      "false_alarms_per_min": 0.0,
+      "time_to_first_detection": Infinity,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    }
+  }
+}

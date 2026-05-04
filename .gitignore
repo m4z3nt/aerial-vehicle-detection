@@ -1,0 +1,26 @@
+# Data (too large for git)
+data/videos/
+data/frames/
+data/labels_auto/
+data/labels_clean/
+data/dataset/
+
+# Training runs (large model weights)
+runs/
+
+# Keep output examples but not full videos
+output/*.mp4
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
